@@ -1,6 +1,6 @@
 {
     "name": "reedware/laravel-sms-twilio",
-    "description": "Adds the ability to send text messages using twilio.",
+    "description": "Adds the ability to send text messages using Twilio.",
     "keywords": ["laravel", "sms", "twilio"],
     "license": "MIT",
     "authors": [
