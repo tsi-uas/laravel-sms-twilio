@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This package SMS integration with Twilio using the [Laravel SMS](https://github.com/tylernathanreed/laravel-sms) package.
+This package SMS integrates with Twilio using the [Laravel SMS](https://github.com/tylernathanreed/laravel-sms) package.
 
 ## Installation
 
