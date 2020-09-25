@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.2",
-        "reedware/laravel-sms": "^0.1",
+        "reedware/laravel-sms": "^0.2",
         "twilio/sdk": "^6.10"
     },
     "require-dev": {
