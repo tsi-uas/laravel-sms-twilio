@@ -17,7 +17,7 @@ class TwilioServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['events']->listen(ManagerBooted::class, function($event) {
-            $event->manager->extend('twilio', function($config) {
+            $event->manager->extend('twilio', function($app, $name, $config) {
                 return $this->createTwilioTransport($config);
             });
         });
