@@ -1,7 +1,7 @@
 # Laravel SMS Twilio
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/reedware/laravel-sms-twilio?label=stable)](https://packagist.org/packages/reedware/laravel-sms-twilio)
-[![Build Status](https://travis-ci.com/tylernathanreed/laravel-sms-twilio.svg?branch=master)](https://travis-ci.com/tylernathanreed/laravel-sms-twilio)
+[![Build Status](https://github.com/tylernathanreed/laravel-sms-twilio/workflows/tests/badge.svg)](https://github.com/tylernathanreed/laravel-sms-twilio/actions)
 
 ## Introduction
 
