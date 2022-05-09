@@ -1,11 +1,11 @@
 <?php
 
-namespace Reedware\LaravelSMS\Twilio;
+namespace Halo\LaravelSMS\Twilio;
 
-use Illuminate\Support\ServiceProvider;
-use Reedware\LaravelSMS\Events\ManagerBooted;
-use Twilio\Http\CurlClient;
 use Twilio\Rest\Client;
+use Twilio\Http\CurlClient;
+use Illuminate\Support\ServiceProvider;
+use Halo\LaravelSMS\Events\ManagerBooted;
 
 class TwilioServiceProvider extends ServiceProvider
 {
@@ -28,7 +28,7 @@ class TwilioServiceProvider extends ServiceProvider
      *
      * @param  array  $config
      *
-     * @return \Reedware\LaravelSMS\Twilio\TwilioTransport
+     * @return \Halo\LaravelSMS\Twilio\TwilioTransport
      */
     protected function createTwilioTransport($config)
     {

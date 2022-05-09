@@ -1,10 +1,10 @@
 <?php
 
-namespace Reedware\LaravelSMS\Tests\Twilio;
+namespace Halo\LaravelSMS\Tests\Twilio;
 
-use Reedware\LaravelSMS\Twilio\TwilioTransport;
-use Twilio\Http\Client as HttpClient;
 use Twilio\Rest\Client;
+use Twilio\Http\Client as HttpClient;
+use Halo\LaravelSMS\Twilio\TwilioTransport;
 
 class SMSTwilioTransportTest extends TestCase
 {

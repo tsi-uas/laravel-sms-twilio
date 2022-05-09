@@ -1,10 +1,10 @@
 <?php
 
-namespace Reedware\LaravelSMS\Twilio;
+namespace Halo\LaravelSMS\Twilio;
 
-use Reedware\LaravelSMS\Contracts\Message as MessageContract;
-use Reedware\LaravelSMS\Transport\Transport;
 use Twilio\Rest\Client;
+use Halo\LaravelSMS\Transport\Transport;
+use Halo\LaravelSMS\Contracts\Message as MessageContract;
 
 class TwilioTransport extends Transport
 {
@@ -30,7 +30,7 @@ class TwilioTransport extends Transport
     /**
      * Sends the given message; returns the number of recipients who were accepted for delivery.
      *
-     * @param  \Reedware\LaravelSMS\Contracts\Message  $message
+     * @param  \Halo\LaravelSMS\Contracts\Message  $message
      * @param  string[]                                $failedRecipients
      *
      * @return int

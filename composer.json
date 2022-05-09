@@ -1,5 +1,5 @@
 {
-    "name": "reedware/laravel-sms-twilio",
+    "name": "halo/laravel-sms-twilio",
     "description": "Adds the ability to send text messages using Twilio.",
     "keywords": ["laravel", "sms", "twilio"],
     "license": "MIT",
@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
-        "reedware/laravel-sms": "^0.3.2",
+        "php": ">=7.2",
+        "halo/laravel-sms": "^1.0",
         "twilio/sdk": "^6.10"
     },
     "require-dev": {
@@ -22,18 +22,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Reedware\\LaravelSMS\\Twilio\\": "src/"
+            "Halo\\LaravelSMS\\Twilio\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Reedware\\LaravelSMS\\Tests\\Twilio\\": "tests/"
+            "Halo\\LaravelSMS\\Tests\\Twilio\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Reedware\\LaravelSMS\\Twilio\\TwilioServiceProvider"
+                "Halo\\LaravelSMS\\Twilio\\TwilioServiceProvider"
             ]
         }
     }
